@@ -1,0 +1,180 @@
+body{
+	font-family: 'Rubik', sans-serif;
+}
+a:hover{
+	text-transform: none;
+	text-decoration: none;
+}
+.header{
+	background-image: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/slider_2_o-a6898e8c62c2e2566cfde6ca773ea0f3e23fd4ee6c03a30f5530160ed29e93e8.jpg");
+	height: 480px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+.center{
+	text-align: center;
+}
+.thumbs{
+	height: 180px;
+	color: black;
+	background-color: white: 
+	
+}
+.head{
+	margin-bottom: 5px;
+	border-radius: 4px;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+.navbar{
+	background-color: rgba(0,0,0, .6);
+}
+.navbar a{
+	
+}
+.nav-link{
+	color: white;
+	list-style: none;
+}
+a.navbar-brand{
+	line-height: .8;
+}
+.navbar_logo{
+	position: relative;
+	top: 0px;
+}
+.number{
+	font-size: 45px;
+	color: 	#fecc00;
+	font-weight: 600;
+}
+.spec_heading{
+	font-size: 16px;
+	text-align: left;
+	font-weight: 700;
+}
+.spec_subheading{
+	font-size: 12px;
+	text-align: left;
+	font-weight: 200;
+	color: grey;
+}
+
+.wrapper{
+	background-color: rgb(235,235,235);
+}
+.heading{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600px;
+	margin: 20px 0;
+}
+.see_more{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img{
+	position: relative;
+	bottom: 25px;
+}
+.bike_photo{
+	margin: bottom: 5px;
+}
+.bike_name{
+	padding-top: 20px;
+	font-family: 'Bitter', sans-serif;
+}
+
+.see_more{
+	color: grey;
+	font-weight: 700;
+}
+.see_more:hover{
+	text-decoration: none;
+	color:black;
+}
+.bikes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	border: none;
+}
+.card1, .card2, .card3, .card4{
+	background-size: cover;
+	background-color: #E3E1E1;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	color: black;
+	margin: 10px;
+	padding: 5% 10%;
+	font-size: 32px;
+	font-weight: 500;
+	box-shadow: 0 0 5px #888;
+}
+.card_subheading{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.card1{
+	background-image: url("./thumbs/index.png");
+}
+.card2{
+	background-image: url("./thumbs/index2.png");
+}
+.card3{
+	background-image: url("./thumbs/index.png");
+}
+.card4{
+	background-image: url("./thumbs/index2.png");
+}
+.mentions{
+	margin: 0 auto;
+}
+.head1{
+	display: flex; 
+	align-items: flex-end; 
+	justify-content: flex-end; 
+	background-color: rgba(54,54,54,.9);
+	font-size: 12px;
+}
+.footerbrand{
+	font-size: 50px;
+	font-weight: 800;
+	line-height: .8;
+	position: relative;
+	top: 10px;
+	color: white;
+}
+.footer_list{
+	list-style: none;
+	color: white;
+}
+.footer_list_head{
+	color: white;
+}
+.footer_a{
+	text-decoration-color: white;
+}
+.footer_list li a{
+	color: white;
+}
+.footer_list_head{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.footer_list li a:hover{
+	color: white;
+}
+.dropdown-menu a{
+	color: white;
+}
+.dropdown-menu a:hover{
+	background: white;
+	color: black;
+}
