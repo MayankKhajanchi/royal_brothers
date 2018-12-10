@@ -30,7 +30,7 @@ a:hover{
 	border-radius: 4px;
 	box-shadow: 0 8px 6px -6px black;
 }
-
+/* navbar */
 .navbar{
 	background-color: rgba(0,0,0, .6);
 }
@@ -48,11 +48,49 @@ a.navbar-brand{
 	position: relative;
 	top: 0px;
 }
+/* navbar */
+
+
+/* ratings */
+.card{
+	border: none;
+}
+.card1, .card2, .card3, .card4{
+	background-size: cover;
+	background-color: #E3E1E1;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	color: black;
+	margin: 10px;
+	padding: 5% 10%;
+	font-size: 32px;
+	font-weight: 500;
+	box-shadow: 0 0 5px #888;
+}
+.card_subheading{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.card1{
+	background-image: url("./thumbs/index.png");
+}
+.card2{
+	background-image: url("./thumbs/index2.png");
+}
+.card3{
+	background-image: url("./thumbs/index.png");
+}
+.card4{
+	background-image: url("./thumbs/index2.png");
+}
 .number{
 	font-size: 45px;
 	color: 	#fecc00;
 	font-weight: 600;
 }
+/* ratings */
+
 .spec_heading{
 	font-size: 16px;
 	text-align: left;
@@ -106,38 +144,7 @@ img{
 	justify-content: center;
 	align-items: center;
 }
-.card{
-	border: none;
-}
-.card1, .card2, .card3, .card4{
-	background-size: cover;
-	background-color: #E3E1E1;
-	background-position: bottom;
-	background-repeat: no-repeat;
-	color: black;
-	margin: 10px;
-	padding: 5% 10%;
-	font-size: 32px;
-	font-weight: 500;
-	box-shadow: 0 0 5px #888;
-}
-.card_subheading{
-	font-size: 12px;
-	text-transform: uppercase;
-}
 
-.card1{
-	background-image: url("./thumbs/index.png");
-}
-.card2{
-	background-image: url("./thumbs/index2.png");
-}
-.card3{
-	background-image: url("./thumbs/index.png");
-}
-.card4{
-	background-image: url("./thumbs/index2.png");
-}
 .mentions{
 	margin: 0 auto;
 }
