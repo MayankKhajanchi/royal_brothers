@@ -1,4 +1,7 @@
+/* null */
 body{
+	margin: 0;
+	padding: 0;
 	font-family: 'Rubik', sans-serif;
 }
 a:hover{
@@ -61,7 +64,9 @@ a.navbar-brand{
 	font-weight: 200;
 	color: grey;
 }
-
+.ratings{
+	margin-top: 20px;
+}
 .wrapper{
 	background-color: rgb(235,235,235);
 }
@@ -142,6 +147,14 @@ img{
 	justify-content: flex-end; 
 	background-color: rgba(54,54,54,.9);
 	font-size: 12px;
+}
+/* footer */
+footer{
+	background-color: #303030;
+	padding: 20px;
+}
+.footer{
+	margin: 0 20vh 0 20vh;
 }
 .footerbrand{
 	font-size: 50px;
