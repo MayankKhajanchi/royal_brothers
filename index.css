@@ -30,6 +30,7 @@ a:hover{
 	border-radius: 4px;
 	box-shadow: 0 8px 6px -6px black;
 }
+
 /* navbar */
 .navbar{
 	background-color: rgba(0,0,0, .6);
@@ -47,6 +48,13 @@ a.navbar-brand{
 .navbar_logo{
 	position: relative;
 	top: 0px;
+}
+.dropdown-menu a{
+	color: white;
+}
+.dropdown-menu a:hover{
+	background: white;
+	color: black;
 }
 /* navbar */
 
@@ -190,11 +198,4 @@ footer{
 }
 .footer_list li a:hover{
 	color: white;
-}
-.dropdown-menu a{
-	color: white;
-}
-.dropdown-menu a:hover{
-	background: white;
-	color: black;
 }
